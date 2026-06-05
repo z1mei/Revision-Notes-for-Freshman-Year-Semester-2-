@@ -31,6 +31,7 @@
 
 # 7. Unignore the files we want to track
 !/.gitignore
+!/README.md
 !/Java复习/Java总复习.md
 !/数电复习/数电总复习第二版.md
 !/线代复习/线代总复习.md
