@@ -1,0 +1,47 @@
+# 1. Ignore everything by default
+*
+
+# 2. Allow directories (necessary so Git can traverse down)
+!*/
+
+# 3. Explicitly ignore subjects we do not want on GitHub
+/中国近代史复习（网络资料）/
+/军事理论复习（网络资料）/
+
+# 4. Ignore all PowerPoint, Office, and PDF files
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.pdf
+
+# 5. Ignore specific subject subfolders we don't want on GitHub
+/高数复习/第10章重积分复习/
+/高数复习/第11章曲线积分与曲面积分复习/
+/高数复习/第12章无穷级数复习/
+/高数复习/第6章定积分的应用复习/
+/高数复习/第7章微分方程复习/
+/高数复习/第8章向量代数与空间解析几何复习/
+/高数复习/第9章多元函数微分法及其应用复习/
+/高数复习/试卷/
+/线代复习/试卷/
+
+# 6. Ignore all markdown files by default
+*.md
+
+# 7. Unignore the files we want to track
+!/.gitignore
+!/README.md
+!/Java复习/Java总复习.md
+!/数电复习/数电总复习第二版.md
+!/线代复习/线代总复习.md
+!/高数复习/高数总复习.md
+!/高数复习/AI_LOCK_INSTRUCTION.md
+
+# 8. Unignore image folders
+!/数电复习/images/
+!/数电复习/images/**
+!/线代复习/images/
+!/线代复习/images/**
+!/高数复习/images/
+!/高数复习/images/**
